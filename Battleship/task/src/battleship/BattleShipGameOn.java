@@ -41,7 +41,7 @@ public class BattleShipGameOn {
 
     private void showBattleField(PlayerField p1, PlayerField p2) {
         //P1 turn
-        p2.showBattleGroundVisibleFog();
+        p2.showBattleGroundVisibleBattleShip(false);
         showDivider();
         p1.showBattleGroundVisibleBattleShip(true);
     }
